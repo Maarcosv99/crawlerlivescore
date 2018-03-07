@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from administracao.models import Analise, Prognostico
-from core.models import JogoAnaliseAoVivo, JogoAoVivo
+from aovivo.models import JogoAnaliseAoVivo, JogoAoVivo
 
 #CRAWLER DO PLACAR DE FUTEBOL
 def autenticacaoPlacar():
